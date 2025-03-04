@@ -4,5 +4,5 @@ metadata:
 components:
   - name: dev-tooling
     container:
-      image: registry.access.redhat.com/ubi9/ubi:9.5
+      image: registry.access.redhat.com/ubi9/ubi:latest
       args: ['tail', '-f', '/dev/null']
