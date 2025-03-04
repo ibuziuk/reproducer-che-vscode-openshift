@@ -5,24 +5,6 @@ components:
   - name: dev-tooling
     container:
       image: quay.io/devfile/universal-developer-image:ubi9-latest
-      # args: ['tail', '-f', '/dev/null']
-      # image: quay.io/devfile/universal-developer-image:ubi9-latest
-      # env:
-      #  - name: QUARKUS_HTTP_HOST
-      #    value: 0.0.0.0
-      # endpoints:
-      #  - exposure: none
-      #    name: debug
-      #    protocol: tcp
-      #    targetPort: 5005
-      #  - exposure: public
-      #    name: list-all-food
-      #    protocol: https
-      #    targetPort: 8080
-      #    path: /food
-      # volumeMounts:
-      #  - name: m2
-      #    path: /home/user/.m2
       memoryLimit: 6G
       memoryRequest: 512Mi
       cpuRequest: 1000m
